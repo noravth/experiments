@@ -25,7 +25,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_litellm import ChatLiteLLM
 from langgraph.graph import END, START, StateGraph
 
-load_dotenv(dotenv_path=Path(__file__).parent / ".env")  # explicit path so the script works from any cwd
+load_dotenv(dotenv_path=Path(__file__).parent.parent / ".env") # explicit path so the script works from any cwd
 
 TABPFN_DEPLOYMENT_ID = os.environ["TABPFN_DEPLOYMENT_ID"]
 

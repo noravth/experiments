@@ -1,0 +1,7 @@
+schema_version: 1.4.0
+
+name: forecasting_assistant
+
+capabilities:
+  - type: local
+    folder: ./forecasting_capability

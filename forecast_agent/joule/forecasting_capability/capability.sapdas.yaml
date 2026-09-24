@@ -1,0 +1,12 @@
+schema_version: 3.28.0
+
+metadata:
+  namespace: joule.ext
+  name: forecasting_capability
+  version: 1.0.0
+  display_name: Forecasting_Capability
+  description: Capability containing the agent calling PAL timeseries forecasting model
+
+system_aliases:
+  FORECAST_AGENT:
+    destination: FORECAST_AGENT

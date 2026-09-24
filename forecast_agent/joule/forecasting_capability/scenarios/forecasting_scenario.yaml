@@ -1,0 +1,10 @@
+description: >-
+  This skill runs a sales forecast or sales prediction for a given date range or time period.
+  Use it when the user asks to forecast sales, predict revenue, run a prediction, or get
+  expected sales numbers for specific dates, weeks, months, or quarters.
+  Examples: "forecast sales for October", "predict next week", "run a sales forecast for Q4",
+  "what are the expected sales for November 2024", "give me a forecast for the next 7 days".
+  It uses a time-series model stored in SAP HANA to generate daily sales predictions.
+target:
+  name: forecasting_function
+  type: function
